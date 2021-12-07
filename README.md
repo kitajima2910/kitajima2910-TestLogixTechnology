@@ -1,0 +1,1 @@
+# kitajima2910-TestLogixTechnology
