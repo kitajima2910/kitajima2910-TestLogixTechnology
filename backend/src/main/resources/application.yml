@@ -1,0 +1,6 @@
+# Connection SQL Server
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost;databaseName=TestLogixTechnogoly
+    username: sa
+    password: 2105

@@ -1,0 +1,66 @@
+.datepicker-mui input {
+  background-color: #1976d2;
+  color: white !important;
+  outline: none !important;
+}
+
+fieldset {
+  border: none !important;
+}
+
+.datepicker-mui svg {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: white;
+  color: white;
+  width: 10px;
+  height: 10px;
+  transform: rotate(180deg);
+}
+
+.post {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post div:first-child {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #78CCFA;
+}
+
+.post div:first-child div:last-child {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.post div:first-child div:last-child .heart {
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.post div:first-child div:last-child span {
+  color: red;
+}
+
+.post p {
+  text-align: center;
+  line-height: 200px;
+  background-color: #0099F3;
+  margin-block-start: 0;
+  margin-block-end: 0.5em;
+  color: white;
+}
+
+.post div:first-child div:last-child .red-heart {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
